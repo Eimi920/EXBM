@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .bienvenida h2 {
-    color: purple;
+    color: rgb(211, 158, 211);
 }
 
 .bienvenida p {
@@ -58,8 +58,34 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: purple;
+    background-color: rgb(204, 170, 204);
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+form{
+    background-color: lightpink;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, selec, texttarea{
+    width: 350px;
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: darksalmon;
+}
+button{
+    background-color: #ffcccc;
+    color:  #df97da;
+    padding: 10px;
+    border:none ;
+    width: 95% ;
+}
+label{
+    background-color: lightpink;
 }
