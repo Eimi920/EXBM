@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
 
-    <link rel="stylesheet" href="{% static 'apellido/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'barrientos/estilos.css' %}">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <!-- MENÚ DE NAVEGACIÓN -->
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="inicio">Inicio</a></li>
                 <li><a href="#">uno</a></li>
                 <li><a href="#">dos</a></li>
                 <li><a href="#">tres</a></li>
@@ -34,7 +34,15 @@
 <input type="text" name="apellidom" placeholder="escribe tu apellido materno...">
 <label>Edad:</label>
 <input type="number" name="edad" min="14" max="25" placeholder="Escribe tu edad..." required>
-
+<label>Genero</label>
+<input type="radio" name="genero" value="Femenino">Femenino
+<input type="radio" name="genero" value="Masculino">Masculino<br><br>
+<label>Interes</label>
+<input type="checkbox" name="interes" value="futbol">futbol
+<input type="checkbox" name="interes" value="musica">musica
+<input type="checkbox" name="interes" value="videojuego">videojuego
+<inpu type="checkbox" name="interes" value="salir a pasear">salir a pasear
+<button type="submit">Guardar</button>
 </from>
    
     <!-- PIE DE PÁGINA -->
